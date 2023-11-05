@@ -1,0 +1,29 @@
+.modal-header, h4, .close {
+    background-color: #537cec;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  .modal-dialog {
+    height: 90%;
+    width: 70%;
+  }
+  .modal-header{
+    padding:35px 50px;
+  }
+  .prices{
+    display: flex;
+  }
+ h1{
+    margin-left: 8px;
+ }
+
+ table{
+  border: 7px;
+ }
+ tr,th{
+  border: 7px;
+ }

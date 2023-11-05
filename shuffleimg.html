@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Image Arrangement</title>
+</head>
+<body>
+    <h1>Randomly Arranged Images</h1>
+    <div id="imageContainer"></div>
+
+    <script>
+        // Array of image sources
+        const imageSources = [
+            'business1.jpg',
+            'culture.jpg',
+            'health1.jpg'
+        ];
+
+        // Function to shuffle an array
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        // Shuffle the image sources array
+        shuffleArray(imageSources);
+
+        // Get the image container element
+        const imageContainer = document.getElementById('imageContainer');
+
+        // Add shuffled images to the container
+        imageSources.forEach(imageSource => {
+            const img = document.createElement('img');
+            img.src = imageSource;
+            imageContainer.appendChild(img);
+        });
+    </script>
+</body>
+</html>

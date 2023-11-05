@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Download</title>
+</head>
+<body>
+    <img id="imageToDownload" src="culture.jpg" alt="Image">
+    <button id="downloadButton">Download Image</button>
+<script>
+    
+    document.getElementById("downloadButton").addEventListener("click", function () {
+        // Get the image element
+        var image = document.getElementById("imageToDownload");
+    
+        // Create a temporary anchor element
+        var downloadLink = document.createElement("a");
+    
+        // Set the image source as the href attribute of the anchor
+        downloadLink.href = image.src;
+    
+        // Set the download attribute to specify the file name
+        downloadLink.download = "downloaded_image.jpg";
+    
+        // Trigger a click event on the anchor element to start the download
+        downloadLink.click();
+    });
+    </script>
+</body>
+</html>

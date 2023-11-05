@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    background-color: #ECF2FF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(250, 249, 249);
+    height: 58px;
+  }
+  li {
+    float: left;
+      /* border-right: 1px solid rgb(131, 126, 126); */
+  }
+  
+  li a {
+    display: block;
+    color: rgb(116, 116, 119);
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+
+  .premium{
+    margin-right: 20px;
+  }
+
+  /* Navbar ends */
+
+.left{
+    margin: 40px 0 0 220px;
+    display: grid;
+    align-items: center;
+}
+.left img{
+   margin-left: 100px;
+   height: 70px;
+}
+.left h2{
+    margin-left: 35px;
+}
+.left input{
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+    border-color: rgb(146, 147, 148);
+}
+.btn1{
+    /* margin-top: 10px; */
+    margin-left: 18px;
+    height: 35px;
+    width: 260px;
+    cursor: pointer;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+.container1{
+    display: flex;
+    max-height: 400px;
+    
+}
+.img2{
+    height: 130%;
+    width: 70%;
+    margin-left: 100px;
+}
+
+
+/* Google button */
+.btn2{
+    border: 0;
+    cursor: pointer;
+    background-color: #eef3f7;
+}
+
+
+.google-btn {
+  margin: 22px 0 0 27px;
+  width: 220px;
+  height: 42px;
+  border-radius: 20px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  background-color: white;
+
+
+  .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    
+  }
+  .google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+  &:hover {
+    box-shadow: 0 0 6px #4285F4;
+  }
+  /* &:active {
+    background: #4285F4;
+  }  */
+}
+
+/* Google button ends */
+
+/* Fb button  */
+.btn3{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    background-color: #eef3f7;
+}
+
+
+.fb-btn {
+    margin: 14px 0 0 27px;
+  width: 220px;
+  height: 42px;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  background-color: #1877F2;
+  color: white;
+  border-radius: 20px;
+
+  .fb-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    
+  }
+  .fb-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+  &:hover {
+    box-shadow: 0 0 6px #4285F4;
+  }
+}
+  /* Fb button ends */
